@@ -1,0 +1,53 @@
+;1	24.09.2013 17:58:06	gpfeifer	
+X0 de07a8 0 7d3620a5 0 0 0 0
+
+X4 7d3620a5 de07a8 0 0 0 0 2
+Future Value
+Future Value
+104000
+Start value
+100000
+Rate of Return
+4
+Period
+1
+O0 de0694 0 0 0 0 0 0
+
+E0 de06f0 0 0 0 0 0 0
+
+L0 de074c 0 0 0 0 0 0
+
+B0 de08bc 0 0 0 0 0 0
+
+P0 de0804 0 0 0 0 0 0
+
+F0 de0860 0 194348dc 0 0 0 0
+
+F1 194348dc de0860 0 0 0 0 2
+future value
+Funktion
+// http://http://en.wikipedia.org/wiki/Compound_interestçäçä'start value' * (( 1 + ('rate of return'/100)) ^ period)
+A0 de0918 0 2b0ef0bd 0 0 0 0
+
+A0 2b0ef0bd de0918 0 3d04738 0 0 0
+rate of return
+A0 3d04738 de0918 0 da9392e 0 0 0
+period
+A0 da9392e de0918 0 0 0 0 0
+start value
+T0 de0974 0 0 0 0 0 0
+
+-
+O0
+E0
+L0
+B0
+P0
+F1
+194348dc
+A3
+2b0ef0bd
+3d04738
+da9392e
+T0
+;Offset=00000000
